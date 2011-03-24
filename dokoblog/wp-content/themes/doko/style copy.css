@@ -1,0 +1,195 @@
+/*
+Theme Name: Doko
+Description: A theme based on the YAST theme, which was derived from the Kubrick theme, which was based on the time immemorial theme.
+
+Author: Tom Wells
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+	This Theme uses parts of the code and the translations from "The default WordPress theme based on the famous Kubrick." (http://binarybonsai.com/kubrick/) which was released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+*//*
+
+
+
+/*COLORS:
+					HEX			  	RGB
+body gradient	top:#05161e;		5 22 30
+				bottom:#142a37		20 42 55
+	
+header gradient	top:#05161e;		5 22 30
+				bottom:#152a3a;		21 42 58
+	
+footer gradient	top:#c1c2c4			193 194 196
+				bottom:#dbdbdb		219 219 219
+*/
+
+
+/*FONTFACE*/
+
+@font-face {
+    font-family: 'EnigmaticRegular';
+    src: url('../Enigmatic-fontfacekit/Enigma__2-webfont.eot?') format('eot'),
+         url('../Enigmatic-fontfacekit/Enigma__2-webfont.woff') format('woff'),
+         url('../Enigmatic-fontfacekit/Enigma__2-webfont.ttf') format('truetype'),
+         url('../Enigmatic-fontfacekit/Enigma__2-webfont.svg#webfontLWKiFO4Y') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PerspectiveSansRegular';
+    src: url('../Perspective-Sans-fontfacekit/persans-webfont.eot?') format('eot'),
+         url('../Perspective-Sans-fontfacekit/persans-webfont.woff') format('woff'),
+         url('../Perspective-Sans-fontfacekit/persans-webfont.ttf') format('truetype'),
+         url('../Perspective-Sans-fontfacekit/persans-webfont.svg#webfontZvYKLeck') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/****************  general and particular  	***********************/
+/****************		   			   		***********************/
+
+h1.enigmatic {font: 1.3em 'EnigmaticRegular', Arial, sans-serif;letter-spacing: 0; color: #f0eeee;padding-left:30px;padding-top:5px; margin-left:10px; margin-top:20px;}
+h1.enigmatic1 {font: 1.2em 'EnigmaticRegular', Arial, sans-serif;letter-spacing: 0; color:#f0eeee; }
+
+p.perspective {font: 1em 'PerspectiveSansRegular', Arial, sans-serif;color:#cccccc; line-height:1.4em; margin:15px 38px;}
+
+p.perspective1 {position:absolute; top:75px; left:40px; font: 1em; 'PerspectiveSansRegular', Arial, sans-serif;color:#cccccc; line-height:1.4em; height:200px;width:220px;}
+
+p.perspective2 {font: 1em 'PerspectiveSansRegular', Arial, sans-serif;color:#cccccc; line-height:1.4em; margin:10px 38px;}
+
+a.perspective3{font: 1.0em 'PerspectiveSansRegular', Arial, sans-serif;color: #787cee; line-height:1.4em; font-weight:bold; color: #358c41;
+}
+
+h2.enigmatic1 {font: 1em 'EnigmaticRegular', Arial, sans-serif;letter-spacing: 0; color:#f0eeee;}
+h2.enigmatic2 {font: 1.4em 'EnigmaticRegular', Arial, sans-serif; letter-spacing: 0; color:#f0eeee; padding-left:30px; padding-top:5px; text-align:center;}
+
+h2.enigmatic3 {font: 1.4em 'EnigmaticRegular', Arial, sans-serif;letter-spacing:.2em; color:#ccc;letter-spacing:.6em; position:absolute;}
+
+h3.enigmatic {font: 1.3em 'EnigmaticRegular', Arial, sans-serif; color: #929292; letter-spacing:1.6em; position:absolute; left:285px; top:60px;}
+
+li.perspective4 {font: .8em 'PerspectiveSansRegular', Arial, sans-serif;color:#cccccc; margin-top:5px; margin-bottom:5px; margin-left:0px;list-style-type:none; display:inline-block; width:250px;}
+
+menu, dir{-webkit-padding-start: 40px;
+display: block;
+list-style-type: disc;
+margin: 1em 0px;
+margin-top: 1em;
+margin-right: 0px;
+margin-bottom: 1em;
+margin-left: 0px;
+}
+
+ul{
+-webkit-padding-start: 0px;
+display: block;
+list-style-type: none;
+margin:0px;
+margin-top: .5em;
+margin-right: .8em;
+margin-bottom: .8em;
+margin-left: .8em;
+}
+
+/**************** header  ***********************/
+#logout li{
+height:70px;
+width:100px;
+background-color:red;}
+
+#logout h2{
+visibility:hidden;}
+
+
+
+/****************  body  ***********************/
+/****************		   ***********************/
+
+body{
+	background:#e1d8b9 url(images/body_01.jpg) repeat-x;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.1, rgb(5,22,30)), color-stop(0.9, rgb(20, 42, 55)));
+	/*background-color:white;*/
+	margin:0;
+	
+}
+
+#wrapper{
+width:1520px; 
+height:auto; 
+margin-top:0; 
+margin-left:auto; 
+margin-bottom:0; 
+margin-right:auto;
+background-image:url(images/content_bkgrd_88a.jpg);
+background-repeat:no-repeat;
+}
+
+/****************  header  ***********************/
+/****************		   ***********************/
+
+#header1{width:100%;height:150px;position:relative;
+		background-image:url(images/header_03.jpg);
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.2, rgb(5,22,30)), color-stop(0.7, rgb(21, 42, 58)));
+		border-bottom:2px ridge #ccc;}
+		
+#header{width:1024px;height:150px;position:relative; margin:0 auto;
+		background-image:url(images/header_03.jpg);
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.2, rgb(5,22,30)), color-stop(0.7, rgb(21, 42, 58)));
+		border-bottom:2px ridge #ccc;}
+		
+#logo{height:150px; width:341px;position:absolute;top:0px;left:0px;background-image:url(images/logo.png);}
+
+#tracer{height:50px;width:200px;background-color:white;float:right;}
+
+/****************  content  ***********************/
+/****************		   ***********************/
+
+
+#content{position:relative;width:600px;height:auto;margin:0 auto;opacity:.5;}
+		
+/****************  left  ***********************/
+/****************		   ***********************/
+		
+#left{width:341px; height:inherit;float:left;}
+
+#demoBtn{margin-left:88px;}
+
+/****************  center  ***********************/
+/****************		   ***********************/
+
+#center{width:342px; height:inherit;position:absolute;left:341px; top:0px;background-image:url(images/center_figure.png);background-repeat:no-repeat;}
+
+#phone{width:342px; height:inherit;position:absolute;left:0px; top:0px;background-image:url(images/phone.png);background-repeat:no-repeat;}
+#phone_demo{width:212px; height:318px;z-index:1; position:absolute; left:66px; top:101px; /*visibility:hidden;*/
+}
+
+/****************  right  ***********************/
+/****************		   ***********************/
+
+#right{width:341px; height:inherit;float:right; position:relative;
+background-image:url(images/right_figure.png);background-repeat:no-repeat;}
+
+#getDoko{position:absolute;height:250px;width:220px;left:52px; top:52px;}
+
+#getDokobtn{position:absolute; left:26px; top:21px;height:68px;width:258px;}
+
+/*#demoDoko{position:absolute;height:68px;width:258px;left:25px; top:222px;}*/
+
+/****************  footer  ***********************/
+/****************		   ***********************/
+
+#footer1{width:100%; height:240px; /*background-image:url(../images/footer.jpg);*/
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.2, rgb(193,194,196)), color-stop(0.4, rgb(219, 219, 219)));
+		border-top:2px ridge white;}
+
+#footer{position:relative; width:1024px; height:240px; /*background-image:url(../images/footer.jpg);*/
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.2, rgb(193,194,196)), color-stop(0.4, rgb(219, 219, 219)));
+		margin:-1px auto;}
+		
+#footer_l{position:absolute; width:270px; height:170px;left:36px; top:36px;background-image:url(images/footer1.jpg);background-repeat: no-repeat;}
+#footer_m{position:absolute; width:270px; height:170px;left:378px;top:36px; background-image:url(images/footer2.jpg);background-repeat: no-repeat;}
+#footer_r{position:absolute; width:270px; height:170px;left:718px;top:36px;background-image:url(images/footer3.jpg);background-repeat: no-repeat;}

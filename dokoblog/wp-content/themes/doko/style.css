@@ -1,0 +1,330 @@
+/*
+Theme Name: Doko
+Description: A theme based on the YAST theme, which was derived from the Kubrick theme, which was based on the time immemorial theme.
+
+Author: Tom Wells
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+	This Theme uses parts of the code and the translations from "The default WordPress theme based on the famous Kubrick." (http://binarybonsai.com/kubrick/) which was released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+*//*
+
+
+ONLY CONFIGURE YOUR COLORS AT THE END OF THIS FILE!!!
+
+
+common */
+/*body,div,span,td,h1,h2,h3,h4,h5,h6,p,input{font:normal 12px Verdana,sans-serif; margin:0px;}*/
+
+
+
+
+/********************** news ****************************************************/
+
+#content{/*position:relative; width:600px; margin:113px 0px -9px 24px;margin:0 auto;*/ }
+#contentMid{float:left; position:relative; width:600px; margin:113px 0px -9px 129px;}
+.news{/*width:600px;margin-top:10px;margin-left:-150px;*/}
+.news .top{/*background:url(img/news-top.png) no-repeat;*/padding:10px 8px 6px 8px;
+border-radius:15px 15px 0px 0px;
+-moz-border-radius:15px 15px 0px 0px;
+-webkit-border-radius:15px 15px 0px 0px;
+background-color:white;}
+.news .top h2.enigmatic, .news .top h3.enigmatic{/*font-size:18px; font-weight:bold;*/font: 1em 'EnigmaticRegular', Arial, sans-serif;letter-spacing: 0; color:#f0eeee;}
+.news .top h2 a, .news .top h3 a{color:#000;}
+.news .top h2 span, .news .top h3 span{color:#777;}
+.news .mid{padding:12px 19px 3px 19px; /*background:url(img/news-mid2.png) repeat-y;*/}
+.news .mid2{padding:2px 19px 1px 19px; /*background:url(img/news-mid2.png) repeat-y;*/}
+.news .mid a, .news .mid2 a{text-decoration:underline; font-weight:bold;}
+.news .midTop{height:5px; /*background:url(img/news-top2.png) no-repeat;*/}
+.news .midBot{height:5px; /*background:url(img/news-bot2.png) no-repeat;*/}
+.news .midBot2{height:15px; /*background:url(img/news-bot3.png) no-repeat;*/}
+.news .bot{color:#777; text-align:center; padding:7px 9px 8px 9px; height:100%;/*background:url(img/news-bot.png) bottom no-repeat;*/}
+.news .bot a{color:#00c;}
+.news .commentPic{float:left; margin:0px 10px 8px 0px;}
+
+/********************* navigation bar ******************************/
+
+.nav .left a, .nav .right a{width:150px; height:22px; background:url(img/button.png) no-repeat; padding-top:7px; text-align:center; margin-top:10px;}
+.nav .left a{float:left;}
+.nav .right a{float:right;}
+
+/********************** sidebar ************************************/
+#sidebar{float:right;width:200px; margin:0px 90px -9px 0px;}
+
+#sidebar{margin-top:10px;color:#999;
+border-radius:15px;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+background-color:white;}
+
+#sidebar ul{margin:0px; padding:0px; list-style-type:none;
+}
+#sidebar > ul > li{/*background:url(img/menu-mid.png) repeat-y;*/ margin-top:10px;
+border-radius:15px;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;}
+#sidebar > ul > li h2{display:block; height:18px; /*background:url(img/menu-top.png) no-repeat;*/ padding:7px 9px 0px 9px; color:#000;}
+#sidebar > ul > li .a, #sidebar > ul > li > ul{padding:7px 9px 8px 9px; /*background:url(img/menu-bot.png) bottom no-repeat;*/}
+#sidebar input[type=text]{width:108px;}
+#sidebar a:before{content:"\bb""\a0";}
+#sidebar .text{padding:7px 0px 0px 0px; background:#fff;}
+#sidebar .text p{color:#000; font-weight:bold;}
+#sidebar .bk{color:#000;}
+#sidebar .categories .children{margin-left:10px;}
+
+/*********************************** miscellaneous ********************************************/
+
+
+.h2head{margin-top:6px; font-size:14px;}
+.pageContent{margin:14px 0px 20px 0px;}
+.error1{margin-top:7px; color:#900;}
+.error2{margin:5px 0px 15px 0px; color:#900;}
+.pages{text-align:center; margin:7px 0px 15px 0px;}
+.clear{clear:both;}
+.MT10{margin-top:10px;}
+.comment{font-size:14px; margin-bottom:10px;}
+
+/********************************** needed by wordpress *************************************/
+
+.aligncenter, div.aligncenter{display:block; margin-left:auto; margin-right:auto;}
+.alignleft{float:left;}
+.alignright{float:right;}
+.wp-caption{border:1px solid #ddd; text-align:center; background-color:#fff; padding-top:4px; margin:8px 0px 0px 0px;}
+.wp-caption img{margin:0; padding:0; border:0 none;}
+.wp-caption p.wp-caption-text{padding:7px 4px 8px; margin:0;}
+/*
+
+
+CONFIGURE YOUR COLORS HERE: */
+
+	#head .m h1 a, #head .m div{color:#fff;}                 /* head area text color */
+	#sidebar > ul > li{background-color:#e6eaf2;}
+	#sidebar > ul > li.search{/*background-color:#e6eaf2;*/margin-top:-10px;}          /* menu background color */
+	.news{background-color:#dbdbdb;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;}
+	
+	
+	                         /* post background color */
+	.nav .left a, .nav .right a{/*background-color:#dae2f2;*/}   /* previous-next navigation buttons background color 
+
+/* Remove this comment (not the code) if you wish the menu to be on the left side
+	#content{float:right; margin:113px 24px -9px 0px;}
+	#sidebar{margin:113px 0px -9px 24px;}
+*/
+
+/*COLORS:
+					HEX			  	RGB
+body gradient	top:#05161e;		5 22 30
+				bottom:#142a37		20 42 55
+	
+header gradient	top:#05161e;		5 22 30
+				bottom:#152a3a;		21 42 58
+	
+footer gradient	top:#c1c2c4			193 194 196
+				bottom:#dbdbdb		219 219 219
+*/
+
+
+/*FONTFACE*/
+
+@font-face {
+    font-family: 'EnigmaticRegular';
+    src: url('Enigmatic-fontfacekit/Enigma__2-webfont.eot?') format('eot'),
+         url('Enigmatic-fontfacekit/Enigma__2-webfont.woff') format('woff'),
+         url('Enigmatic-fontfacekit/Enigma__2-webfont.ttf') format('truetype'),
+         url('Enigmatic-fontfacekit/Enigma__2-webfont.svg#webfontLWKiFO4Y') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PerspectiveSansRegular';
+    src: url('Perspective-Sans-fontfacekit/persans-webfont.eot?') format('eot'),
+         url('Perspective-Sans-fontfacekit/persans-webfont.woff') format('woff'),
+         url('Perspective-Sans-fontfacekit/persans-webfont.ttf') format('truetype'),
+         url('Perspective-Sans-fontfacekit/persans-webfont.svg#webfontZvYKLeck') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/****************  general and particular  	***********************/
+/****************		   			   		***********************/
+
+h1,h2,h3,h4,h5,h6{font-weight:bold;}
+/*body{background:url(img/page-bg.png) #ccc7be;}*/
+form{padding:0px; margin:0px;}
+input[type=text], input[type=checkbox], textarea{border:1px solid #999;}
+img{border:0px;}
+a{color:#00c; text-decoration:none;}
+a:hover{text-decoration:underline;}
+p{margin-bottom:10px;}
+hr{border:0px; border-bottom:1px solid #999;}
+
+#page{/*position:relative;*/ margin-top:0px; margin-right:auto; margin-bottom:0px; margin-left:auto;width:1024px;height:auto;}
+#border{position:relative; background:url(img/page-border.png) repeat-y; width:858px;}
+#prehead{width:858px; height:45px; background:url(img/page-head.png) no-repeat;}
+
+h1.enigmatic {font: 1.3em 'EnigmaticRegular', Arial, sans-serif;letter-spacing: 0; color: #f0eeee;padding-left:30px;padding-top:5px; margin-left:10px; margin-top:20px;}
+h1.enigmatic1 {font: 1.2em 'EnigmaticRegular', Arial, sans-serif;letter-spacing: 0; color:#f0eeee; }
+
+p.perspective {font: 1em 'PerspectiveSansRegular', Arial, sans-serif;color:#cccccc; line-height:1.4em; margin:15px 38px;}
+
+p.perspective1 {position:absolute; top:75px; left:40px; font: 1em; 'PerspectiveSansRegular', Arial, sans-serif;color:#cccccc; line-height:1.4em; height:200px;width:220px;}
+
+p.perspective2 {font: 1em 'PerspectiveSansRegular', Arial, sans-serif;color:#cccccc; line-height:1.4em; margin:10px 38px;}
+
+a.perspective3{font: 1.0em 'PerspectiveSansRegular', Arial, sans-serif;color: #787cee; line-height:1.4em; font-weight:bold; color: #358c41;
+}
+
+h2.enigmatic1 {font: 1em 'EnigmaticRegular', Arial, sans-serif;letter-spacing: 0; color:#f0eeee;}
+h2.enigmatic2 {font: 1.4em 'EnigmaticRegular', Arial, sans-serif; letter-spacing: 0; color:#f0eeee; padding-left:30px; padding-top:5px; text-align:center;}
+
+h2.enigmatic3 {font: 1.4em 'EnigmaticRegular', Arial, sans-serif;letter-spacing:.2em; color:#ccc;letter-spacing:.6em; position:absolute;}
+
+h3.enigmatic {font: 1.3em 'EnigmaticRegular', Arial, sans-serif; color: #929292; letter-spacing:1.6em; position:absolute; left:285px; top:60px;}
+
+li.perspective4 {font: .8em 'PerspectiveSansRegular', Arial, sans-serif;color:#cccccc; margin-top:5px; margin-bottom:5px; margin-left:0px;list-style-type:none; display:inline-block; width:250px;}
+
+menu, dir{-webkit-padding-start: 40px;
+display: block;
+list-style-type: disc;
+margin: 1em 0px;
+margin-top: 1em;
+margin-right: 0px;
+margin-bottom: 1em;
+margin-left: 0px;
+}
+
+ul{
+-webkit-padding-start: 0px;
+display: block;
+list-style-type: none;
+margin:0px;
+margin-top: .5em;
+margin-right: .8em;
+margin-bottom: .8em;
+margin-left: .8em;
+}
+/****************  body  ***********************/
+/****************		   ***********************/
+
+body{
+	background:#e1d8b9 url(images/body_01.jpg) repeat-x;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.1, rgb(5,22,30)), color-stop(0.9, rgb(20, 42, 55)));
+	/*background-color:white;*/
+	margin:0;
+	
+}
+
+/*#wrapper{
+width:1520px; 
+height:auto; 
+margin-top:0; 
+margin-left:auto; 
+margin-bottom:0; 
+margin-right:auto;
+background-image:url(images/content_bkgrd_88a.jpg);
+background-repeat:no-repeat;
+}*/
+
+#wrapper{
+height:auto; 
+margin-top:0px;
+margin-right:auto;
+margin-bottom:0px;
+margin-left:auto;
+background-image:url(images/content_bkgrd_88a.jpg);
+background-repeat:no-repeat;
+max-width:1518px;
+min-width:1024px;
+background-position:center;
+}
+
+/****************  header  ***********************/
+/****************		   ***********************/
+
+#head{position:absolute; left:24px; top:-21px; width:810px; height:134px; background:url(img/logo.jpg);}
+#head .l{position:absolute; left:0px; top:0px; width:15px; height:134px; background:url(img/logo-left.png) no-repeat;}
+#head .m{position:absolute; left:15px; top:0px; width:780px; height:134px; text-align:center; background:url(img/logo-mid.png) repeat-x;}
+#head .r{position:absolute; right:0px; top:0px; width:15px; height:134px; background:url(img/logo-right.png) no-repeat;}
+#head .m h1{padding-top:29px;}
+#head .m h1 a{font-size:36px; text-decoration:none;}
+#head .m div{margin-top:7px; font-size:14px; font-weight:bold;}
+
+#header1{width:100%;height:150px;position:relative;
+		background-image:url(images/header_03.jpg);
+		background-repeat:repeat-x;;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.2, rgb(5,22,30)), color-stop(0.7, rgb(21, 42, 58)));
+		border-bottom:2px ridge #ccc;}
+		
+#header1 .news{/*margin:0 auto; width:500px;height:auto;*/}
+		
+#header{width:1024px;height:150px;position:relative; margin:0 auto;
+		background-image:url(images/header_03.jpg);
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.2, rgb(5,22,30)), color-stop(0.7, rgb(21, 42, 58)));
+		border-bottom:2px ridge #ccc;}
+		
+#logo{height:150px; width:341px;position:absolute;top:0px;left:0px;background-image:url(images/logo.png);}
+#logout{float:right;}
+#logout li{list-style-type:none;}
+#logout h2{visibility:hidden;}
+#logout a{color:#dadada;}
+
+/****************  content  ***********************/
+/****************		   ***********************/
+
+
+#content{/*position:relative;width:1024px;height:auto;margin-left:-100px;/*opacity:.5;*/}
+		
+/****************  left  ***********************/
+/****************		   ***********************/
+		
+#left{width:341px; height:inherit;float:left;}
+
+#demoBtn{margin-left:88px;}
+
+/****************  center  ***********************/
+/****************		   ***********************/
+
+#center{width:342px; height:inherit;position:absolute;left:341px; top:0px;background-image:url(images/center_figure.png);background-repeat:no-repeat;}
+
+#phone{width:342px; height:inherit;position:absolute;left:0px; top:0px;background-image:url(images/phone.png);background-repeat:no-repeat;}
+#phone_demo{width:212px; height:318px;z-index:1; position:absolute; left:66px; top:101px; /*visibility:hidden;*/
+}
+
+/****************  right  ***********************/
+/****************		   ***********************/
+
+#right{width:341px; height:inherit;float:right; position:relative;
+background-image:url(images/right_figure.png);background-repeat:no-repeat;}
+
+#getDoko{position:absolute;height:250px;width:220px;left:52px; top:52px;}
+
+#getDokobtn{position:absolute; left:26px; top:21px;height:68px;width:258px;}
+
+/*#demoDoko{position:absolute;height:68px;width:258px;left:25px; top:222px;}*/
+
+/****************  footer  ***********************/
+/****************		   ***********************/
+
+#prefooter{position:absolute; left:0px; bottom:-19px; width:858px; height:19px; background:url(img/page-footer1.png) no-repeat;}
+#footer{background:url(img/page-footer2.png) no-repeat; margin:19px 0px 14px 0px; padding-top:15px; color:#666; font-weight:bold; text-align:center;}
+#footer a{color:#559; font-weight:bold;}
+
+#footer1{width:100%; height:240px; /*background-image:url(../images/footer.jpg);*/
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.2, rgb(193,194,196)), color-stop(0.4, rgb(219, 219, 219)));
+		border-top:2px ridge white;}
+
+#footer{position:relative; width:100%; height:240px; /*background-image:url(../images/footer.jpg);*/
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.2, rgb(193,194,196)), color-stop(0.4, rgb(219, 219, 219)));
+		margin:-1px auto;}
+		
+#footer_l{position:absolute; width:270px; height:170px;left:36px; top:36px;background-image:url(images/footer1.jpg);background-repeat: no-repeat;}
+#footer_m{position:absolute; width:270px; height:170px;left:378px;top:36px; background-image:url(images/footer2.jpg);background-repeat: no-repeat;}
+#footer_r{position:absolute; width:270px; height:170px;left:718px;top:36px;background-image:url(images/footer3.jpg);background-repeat: no-repeat;}
